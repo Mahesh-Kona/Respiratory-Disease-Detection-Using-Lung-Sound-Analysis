@@ -5,3 +5,4 @@ librosa
 streamlit
 altair==4.2.2
 ipython
+./imghdr_shim
