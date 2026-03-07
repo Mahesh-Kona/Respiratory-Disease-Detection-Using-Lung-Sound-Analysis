@@ -11,7 +11,7 @@ A lightweight, reproducible workflow to explore lung-sound recordings, segment b
 
 ## Repository Layout
 - [copdresearch.ipynb](copdresearch.ipynb): Main notebook with the full workflow.
-- [demographic_info.txt](demographic_info.txt): Demographic table (age, gender, BMI/child measures).
+- [clean_demographic_info.csv](clean_demographic_info.csv): Cleaned demographics (age, gender, BMI) derived from the original demographic_info.txt.
 - [Respiratory_Sound_Database/](Respiratory_Sound_Database/)
   - [patient_diagnosis.csv](Respiratory_Sound_Database/patient_diagnosis.csv): Patient-level diagnosis labels.
   - [audio_and_txt_files/](Respiratory_Sound_Database/audio_and_txt_files/): Paired `.wav` audio and `.txt` annotations (start, end, crackles, wheezes).
